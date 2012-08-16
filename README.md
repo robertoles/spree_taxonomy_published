@@ -1,5 +1,5 @@
-SpreeTaxonomyPurpose
-====================
+SpreeTaxonomyPublished
+======================
 
 Introduction goes here.
 

@@ -1,0 +1,5 @@
+<%= f.field_container :publish do %>
+  <%= f.label :publish %><br />
+  <%= error_message_on :taxonomy, :publish, :class => 'fullwidth title' %>
+  <%= f.check_box :publish %>
+<% end %>

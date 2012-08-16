@@ -1,7 +1,7 @@
 # encoding: UTF-8
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
-  s.name        = 'spree_taxonomy_purpose'
+  s.name        = 'spree_taxonomy_published'
   s.version     = '1.1.3'
   s.summary     = 'TODO: Add gem summary here'
   s.description = 'TODO: Add (optional) gem description here'
