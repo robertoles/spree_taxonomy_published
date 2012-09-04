@@ -2,9 +2,9 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_taxonomy_published'
-  s.version     = '1.1.3'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.version     = '1.2.0'
+  s.summary     = 'Lets users set taxonomies to published'
+  s.description = 'Adds a boolean published field to taxonomies so that you can decide which taxonomies to display'
   s.required_ruby_version = '>= 1.9.2'
 
   s.author    = 'Robert Oles'
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_dependency 'spree_core', '~> 1.1.3'
+  s.add_dependency 'spree_core', '~> 1.2'
 
   s.add_development_dependency 'capybara', '1.0.1'
   s.add_development_dependency 'factory_girl', '~> 2.6.4'
