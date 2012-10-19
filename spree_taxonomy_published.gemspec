@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_taxonomy_published'
-  s.version     = '1.2.0'
+  s.version     = '1.2.1'
   s.summary     = 'Lets users set taxonomies to published'
   s.description = 'Adds a boolean published field to taxonomies so that you can decide which taxonomies to display'
   s.required_ruby_version = '>= 1.9.2'
